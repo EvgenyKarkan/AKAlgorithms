@@ -6,4 +6,4 @@
 //  Copyright (c) 2014 Artem Kislitsyn. All rights reserved.
 //
 
-int getint(int *pn);
+int getInt(int *pn);
