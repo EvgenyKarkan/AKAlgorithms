@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182A33D8187DF9B300248042 /* CDoubleLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 182A33D7187DF9B300248042 /* CDoubleLinkedList.c */; };
+		182A33DA187DFA7900248042 /* СConverters.c in Sources */ = {isa = PBXBuildFile; fileRef = 182A33D9187DFA7900248042 /* СConverters.c */; };
 		1832896E1879958400C55C65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1832896D1879958400C55C65 /* Foundation.framework */; };
 		183289711879958400C55C65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183289701879958400C55C65 /* main.m */; };
 		183289751879958400C55C65 /* AKAlgorithms.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 183289741879958400C55C65 /* AKAlgorithms.1 */; };
@@ -32,6 +34,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		182A33D6187DF99300248042 /* СDoubleLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "СDoubleLinkedList.h"; sourceTree = "<group>"; };
+		182A33D7187DF9B300248042 /* CDoubleLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CDoubleLinkedList.c; sourceTree = "<group>"; };
+		182A33D9187DFA7900248042 /* СConverters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "СConverters.c"; sourceTree = "<group>"; };
+		182A33DB187DFA8E00248042 /* CConverters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CConverters.h; sourceTree = "<group>"; };
 		1832896A1879958400C55C65 /* AKAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AKAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		1832896D1879958400C55C65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		183289701879958400C55C65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -147,6 +153,10 @@
 				18328990187B42B500C55C65 /* CPointers.c */,
 				18328994187B5B9E00C55C65 /* COutput.h */,
 				18328992187B5B8E00C55C65 /* COutput.c */,
+				182A33D6187DF99300248042 /* СDoubleLinkedList.h */,
+				182A33D7187DF9B300248042 /* CDoubleLinkedList.c */,
+				182A33DB187DFA8E00248042 /* CConverters.h */,
+				182A33D9187DFA7900248042 /* СConverters.c */,
 			);
 			name = CAlgorithms;
 			sourceTree = "<group>";
@@ -210,10 +220,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				183289711879958400C55C65 /* main.m in Sources */,
+				182A33DA187DFA7900248042 /* СConverters.c in Sources */,
 				18328993187B5B8E00C55C65 /* COutput.c in Sources */,
 				18328983187AF58500C55C65 /* AKArray.m in Sources */,
 				1832898B187B22C000C55C65 /* CAlgorithms.c in Sources */,
 				18328991187B42B500C55C65 /* CPointers.c in Sources */,
+				182A33D8187DF9B300248042 /* CDoubleLinkedList.c in Sources */,
 				1832897E18799CF200C55C65 /* AKQueue.m in Sources */,
 				18328986187B036900C55C65 /* AKSortAlgorithms.m in Sources */,
 			);
@@ -327,6 +339,7 @@
 				1832897A1879958400C55C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
