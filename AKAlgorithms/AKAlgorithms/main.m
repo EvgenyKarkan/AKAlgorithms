@@ -20,15 +20,15 @@ void startCAlgorithms(){
     //
     selectionSort(a,10);
     printCArray(a,10);
-    
-    insertionSort(a,10);
-    printCArray(a,10);
-    
-    bubbleSort(a,10);
-    printCArray(a,10);
-    
-    heapSort(a,10);
-    printCArray(a,10);
+    int b [10]  = {10,9,8,7,6,5,4,3,2,1};
+    insertionSort(b,10);
+    printCArray(b,10);
+    int c [10]  = {10,9,8,7,6,5,4,3,2,1};
+    bubbleSort(c,10);
+    printCArray(c,10);
+    int d [10]  = {10,9,8,7,6,5,4,3,2,1};
+    heapSort(d,10);
+    printCArray(d,10);
     
     testPointers();
     
