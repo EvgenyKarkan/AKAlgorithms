@@ -10,3 +10,4 @@ void selectionSort(int a[], int array_size);
 void insertionSort(int a[], int array_size);
 void bubbleSort(int a[], int array_size);
 void heapSort(int a[], int array_size);
+void partition(int arr[],int low,int high);
