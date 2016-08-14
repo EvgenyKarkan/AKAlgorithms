@@ -14,7 +14,8 @@
 #include "COutput.h"
 #include <pthread.h>
 #include <time.h>
-//#include <thread.h>
+
+
 void mergeSortAlgorithm(){
     clock_t begin, end;
     double time_spent;
@@ -48,7 +49,6 @@ void heapSortAlgorithm(){
 }
 
 void insertAlgorithm(){
-   
     
     clock_t begin, end;
     double time_spent;
@@ -68,7 +68,6 @@ void startCAlgorithms(){
     printf("Start C Algorithms \n");
     int a [10]  = {10,9,8,7,6,5,4,3,2,1};
     
-    //
     printf("Start Selection Algorithms \n");
     clock_t begin, end;
     double time_spent;
@@ -103,26 +102,19 @@ void startCAlgorithms(){
     time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
     printf("time spent %f \n",time_spent);
     
-
     printCArray(c,10);
     
-   
-    
     testPointers();
-    
 }
 
 
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool {
         
-     //   AKCSortAlgorithms * sortAlgorithms = [AKCSortAlgorithms new];
-       // int a [10]  = {1,2,3,4,5,6,7,8,9,0};
+     // AKCSortAlgorithms * sortAlgorithms = [AKCSortAlgorithms new];
+     // int a [10]  = {1,2,3,4,5,6,7,8,9,0};
         startCAlgorithms();
-        
-        
     }
     return 0;
 }
